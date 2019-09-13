@@ -32,7 +32,7 @@ import Section from './Section';
 import { loadData } from '../App/actions';
 import { onChangeSearch, onChangePage, onSubmitForm, sort } from './actions';
 
-import Input from './input';
+import Input from './Input';
 import Form from './Form';
 import reducer from './reducer';
 import saga from './saga';
