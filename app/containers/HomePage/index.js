@@ -78,6 +78,10 @@ const ListDesc = styled.div`
 
 const Sort = styled.div`
   color: black;
+  margin-left : 30px;
+  input {
+    margin : 0px 10px
+  }
 `;
 
 const key = 'home';
@@ -128,6 +132,7 @@ export function HomePage({
               </Form>{' '}
               {` ${totalJobs}`} Jobs Found
               <Sort>
+                Sort
                 <input
                   type="radio"
                   value="byExperience"
@@ -141,7 +146,7 @@ export function HomePage({
                   name="sort"
                   onChange={sort}
                 />
-                By Location By Location
+                By Location
               </Sort>
             </SearchAndFilter>
             {list.map(function(x) {
