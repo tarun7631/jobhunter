@@ -1,0 +1,8 @@
+export const CHANGE_SEARCH = 'Home/CHANGE_SEARCH';
+export const CHANGE_PAGENO = 'Home/CHANGE_PAGENO';
+export const CHANGE_SUCCESS_PAGENO = 'Home/CHANGE_SUCCESS_PAGENO';
+export const CHANGE_TOTAL_ITEM = 'Home/CHANGE_TOTAL_ITEM';
+export const LOAD_SELECTED_LIST = 'Home/LOAD_SELECTED_LIST';
+export const SUBMIT_FORM = 'Home/SUBMIT_FORM';
+export const FILTERED_LIST = 'Home/FILTERED_LIST';
+export const SORT_LIST = 'Home/SORT_LIST';
